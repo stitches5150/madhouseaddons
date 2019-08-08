@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.bcreborn" version="1.0.4" name="Bone Crusher Reborn" provider-name="Bone Crusher">
+<addon id="plugin.video.bcreborn" version="1.0.5" name="Bone Crusher Reborn" provider-name="Bone Crusher">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.bcreborn.metadata" />
 		<import addon="script.module.resolveurl" />
 		<import addon="script.module.requests" />
-        <import addon="script.toons" />
 		<import addon="script.module.openscrapers" />
 		<import addon="script.module.metahandler" version="1.0.0" />
 	</requires>
