@@ -1,0 +1,2 @@
+[B]Inital Release:[/B] july 12, 2019.
+If you reset to Defaults, Trakt will need to be re-authorized and IMDb credentials re-entered.

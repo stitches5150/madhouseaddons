@@ -1,0 +1,5 @@
+Bone Crusher Reborn is a fork of Exodus. It has the same basic look and feel as the original Exodus with functionality and themes incorporated from the various iterations of Exodus.  The project builds on the efforts of the developers listed below.
+
+- Lambda
+- TKNorris
+- and to my mentors for showing me the ropes

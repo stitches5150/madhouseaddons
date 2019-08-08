@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.s_i_r.artwork" version="1.0.1" name="Still i Rise Artwork" provider-name="BoneCrusher">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Still i Rise Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
