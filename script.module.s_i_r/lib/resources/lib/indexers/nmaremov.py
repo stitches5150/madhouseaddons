@@ -56,7 +56,7 @@ class movies:
         self.popular_link = 'http://www.imdb.com/search/title?title_type=feature,tv_movie&num_votes=1000,&genres=horror,thriller&production_status=released&groups=top_1000&release_date=,date[90]&sort=moviemeter,asc&count=40&start=1'
         self.views_link = 'http://www.imdb.com/search/title?title_type=feature,tv_movie&num_votes=1000,&genres=horror,thriller&production_status=released&sort=num_votes,desc&release_date=,date[90]&count=40&start=1'
         self.featured_link = 'http://www.imdb.com/search/title?title_type=feature,tv_movie&num_votes=1000,&genres=horror,thriller&production_status=released&release_date=date[365],date[90]&sort=moviemeter,asc&count=40&start=1'
-        self.genre_link = 'http://www.imdb.com/search/title?title_type=feature,tv_movie,documentary&num_votes=100,&release_date=,date[90]&genres=%s,sci-fi&sort=moviemeter,asc&count=40&start=1'
+        self.genre_link = 'http://www.imdb.com/search/title?title_type=feature,tv_movie,documentary&num_votes=100,&release_date=,date[90]&genres=%s,horror&sort=moviemeter,asc&count=40&start=1'
         self.language_link = 'http://www.imdb.com/search/title?title_type=feature,tv_movie&num_votes=100,&genres=horror,thriller&production_status=released&primary_language=%s&sort=moviemeter,asc&release_date=,date[90]&count=40&start=1'
         #self.certification_link = 'http://www.imdb.com/search/title?genres=horror,thriller&title_type=feature,tv_movie&num_votes=100,&production_status=released&certificates=us:%s&sort=moviemeter,asc&release_date=,date[90]&count=40&start=1'
         self.certificationmg_link = 'https://www.imdb.com/search/title?title_type=feature,tv_movie&genres=horror,thriller&certificates=US%3AG'

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """
-    Bone Crusher Reborn Add-on
+    ego Add-on
 """
 
 import os, sys, re, json, zipfile
@@ -47,7 +47,7 @@ class Episodes:
         #        self.tvdb_key = control.setting('tvdb.user')
         #        if self.tvdb_key == '' or self.tvdb_key is None:
         #            self.tvdb_key = '1D62F2F90030C444'
-        self.tvdb_key = 'VUxFQzRVTkQ1QlJHWlpYUg=='
+        self.tvdb_key = 'MUQ2MkYyRjkwMDMwQzQ0NA=='
         self.tvdb_info_link = 'http://thetvdb.com/api/%s/series/%s/all/%s.zip' % (
             self.tvdb_key.decode('base64'), '%s', '%s')
         self.tvdb_by_query = 'http://thetvdb.com/api/GetSeries.php?seriesname=%s'
@@ -1765,7 +1765,7 @@ class Episodes:
                     # cm.append((control.lang2(19033).encode('utf-8'), 'Action(Info)'))
                 cm.append((addToLibrary, 'RunPlugin(%s?action=tvshowToLibrary&tvshowtitle=%s&year=%s&imdb=%s&tvdb=%s)' % (
                                         sysaddon, systvshowtitle, year, imdb, tvdb)))
-                cm.append(('[COLOR red]Bone Crusher Reborn Settings[/COLOR]', 'RunPlugin(%s?action=openSettings&query=(0,0))' % sysaddon))
+                cm.append(('[COLOR red]ego Settings[/COLOR]', 'RunPlugin(%s?action=openSettings&query=(0,0))' % sysaddon))
 ####################################
 
                 item = control.item(label=labelProgress)

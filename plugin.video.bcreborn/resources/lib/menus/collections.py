@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-Bone Crusher Reborn
+ego
 '''
 
 import os, sys, re, datetime
@@ -44,7 +44,7 @@ class Collections:
 
         self.tmdb_key = control.setting('tm.user')
         if self.tmdb_key == '' or self.tmdb_key is None:
-            self.tmdb_key = '534af3567d39c2b265ee5251537e13c2'
+            self.tmdb_key = '3320855e65a9758297fec4f7c9717698'
 
         self.user = str(self.imdb_user) + str(self.tmdb_key)
 
@@ -1150,7 +1150,7 @@ class Collections:
                 cm.append((queueMenu, 'RunPlugin(%s?action=queueItem&name=%s)' % (sysaddon, sysname)))
                 cm.append((playbackMenu, 'RunPlugin(%s?action=alterSources&url=%s&meta=%s)' % (sysaddon, sysurl, sysmeta)))
                 cm.append((addToLibrary, 'RunPlugin(%s?action=movieToLibrary&name=%s&title=%s&year=%s&imdb=%s&tmdb=%s)' % (sysaddon, sysname, systitle, year, imdb, tmdb)))
-                cm.append(('[COLOR red]Bone Crusher Reborn Settings[/COLOR]', 'RunPlugin(%s?action=openSettings&query=(0,0))' % sysaddon))
+                cm.append(('[COLOR red]ego Settings[/COLOR]', 'RunPlugin(%s?action=openSettings&query=(0,0))' % sysaddon))
 ####################################
 
                 item = control.item(label=label)
@@ -1234,7 +1234,7 @@ class Collections:
                 except:
                     pass
 
-                cm.append(('[COLOR red]Bone Crusher Reborn Settings[/COLOR]', 'RunPlugin(%s?action=openSettings&query=(0,0))' % sysaddon))
+                cm.append(('[COLOR red]ego Settings[/COLOR]', 'RunPlugin(%s?action=openSettings&query=(0,0))' % sysaddon))
 
                 item = control.item(label = name)
 
@@ -1271,7 +1271,7 @@ class Collections:
             cm.append((queueMenu, 'RunPlugin(%s?action=queueItem)' % sysaddon))
         if not context is None:
             cm.append((control.lang(context[0]).encode('utf-8'), 'RunPlugin(%s?action=%s)' % (sysaddon, context[1])))
-        cm.append(('[COLOR red]Bone Crusher Reborn Settings[/COLOR]', 'RunPlugin(%s?action=openSettings&query=(0,0))' % sysaddon))
+        cm.append(('[COLOR red]ego Settings[/COLOR]', 'RunPlugin(%s?action=openSettings&query=(0,0))' % sysaddon))
 
         item = control.item(label=name)
         item.addContextMenuItems(cm)

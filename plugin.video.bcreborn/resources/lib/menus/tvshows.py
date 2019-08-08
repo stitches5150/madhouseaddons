@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Bone Crusher Reborn Add-on
+    ego Add-on
 '''
 
 import os, sys, re
@@ -46,7 +46,7 @@ class TVshows:
         # self.tvdb_key = control.setting('tvdb.user')
         # if self.tvdb_key == '' or self.tvdb_key is None:
             # self.tvdb_key = '1D62F2F90030C444'
-        self.tvdb_key = 'VUxFQzRVTkQ1QlJHWlpYUg=='
+        self.tvdb_key = 'MUQ2MkYyRjkwMDMwQzQ0NA=='
         self.tvdb_info_link = 'http://thetvdb.com/api/%s/series/%s/%s.xml' % (self.tvdb_key.decode('base64'), '%s', self.lang)
         self.tvdb_by_imdb = 'http://thetvdb.com/api/GetSeriesByRemoteID.php?imdbid=%s'
         self.tvdb_by_query = 'http://thetvdb.com/api/GetSeries.php?seriesname=%s'
@@ -123,7 +123,7 @@ class TVshows:
 
         self.tmdb_key = control.setting('tm.user')
         if self.tmdb_key == '' or self.tmdb_key is None:
-            self.tmdb_key = '534af3567d39c2b265ee5251537e13c2'
+            self.tmdb_key = '3320855e65a9758297fec4f7c9717698'
         self.tmdb_link = 'http://api.themoviedb.org'
 
         self.tmdb_lang = 'en-US'
@@ -889,7 +889,7 @@ class TVshows:
             self.meta = []
             total = len(self.list)
 
-            self.fanart_tv_headers = {'api-key': '3eb5ed2c401a206391ea8d1a0312c347'}
+            self.fanart_tv_headers = {'api-key': '9f846e7ec1ea94fad5d8a431d1d26b43'}
             if not self.fanart_tv_user == '':
                 self.fanart_tv_headers.update({'client-key': self.fanart_tv_user})
 
@@ -1346,7 +1346,7 @@ class TVshows:
                 # if isOld is True:
                     # cm.append((control.lang2(19033).encode('utf-8'), 'Action(Info)'))
                 cm.append((addToLibrary, 'RunPlugin(%s?action=tvshowToLibrary&tvshowtitle=%s&year=%s&imdb=%s&tvdb=%s)' % (sysaddon, systitle, year, imdb, tvdb)))
-                cm.append(('[COLOR red]Bone Crusher Reborn Settings[/COLOR]', 'RunPlugin(%s?action=openSettings&query=(0,0))' % sysaddon))
+                cm.append(('[COLOR red]ego Settings[/COLOR]', 'RunPlugin(%s?action=openSettings&query=(0,0))' % sysaddon))
 ####################################
 
                 item = control.item(label = label)

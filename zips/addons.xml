@@ -107,7 +107,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.bcreborn" version="1.0.5" name="Bone Crusher Reborn" provider-name="Bone Crusher">
+<addon id="plugin.video.bcreborn" version="1.0.6" name="Bone Crusher Reborn" provider-name="Bone Crusher">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.bcreborn.metadata" />
@@ -465,7 +465,7 @@ Add-on by doko.
     </extension>
 </addon>
 
-<addon id="repository.Madhouse" name="Madhouse" version="1.0.45" provider-name="stitches">
+<addon id="repository.Madhouse" name="Madhouse" version="1.0.46" provider-name="stitches">
 	<extension point="xbmc.addon.repository" name="Madhouse REPO">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/stitches5150/madhouseaddons/master/zips/addons.xml</info>
@@ -977,7 +977,7 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
   </extension>
 </addon>
 
-<addon id="script.module.s_i_r" name="Still i Rise Module" version="1.0.3" provider-name="BoneCrusher">
+<addon id="script.module.s_i_r" name="Still i Rise Module" version="1.0.4" provider-name="BoneCrusher">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -1117,50 +1117,6 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
 		<description>Metadata for Still i Rise are maintained separately to make distribution of the the addon itself easier/faster.</description>
 		<platform>all</platform>
 	</extension>
-</addon>
-
-<addon id="script.watchdogs.artwork" version="5.0.0" name="[B][COLOR red]Watchdogs[/COLOR] Artwork[/B]" provider-name="The Alchemist">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-    <summary lang="en">[B][COLOR red]Watchdogs[/COLOR] Artwork[/B] is a free portal to see the best stuff.</summary>
-    <description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-    </assets>
-    <news></news>
-    </extension>
-</addon>
-
-<addon id="script.watchdogs.metadata" version="5.0.0" name="[B][COLOR red]Watchdogs[/COLOR] Metadata[/B]" provider-name="nobody">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">[B][COLOR red]Watchdogs[/COLOR] Metadata[/B] is a free portal to see the best stuff.</summary>
-    <description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart></fanart>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-        <screenshot></screenshot>
-    </assets>
-    <news></news>
-    </extension>
 </addon>
 
 <addon id="service.library.data.provider" name="Library Data Provider" provider-name="BigNoid" version="0.3.2">

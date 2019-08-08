@@ -71,7 +71,7 @@ class navigator:
         #self.addDirectoryItem(32013, 'nightmaremoviePersons', 'fre.png', 'DefaultMovies.png')
         self.addDirectoryItem(32014, 'nightmaremovieLanguages', 'fre.png', 'DefaultMovies.png')
         self.addDirectoryItem(32015, 'nightmaremovieCertificates', 'fre.png', 'DefaultMovies.png')
-        self.addDirectoryItem(32017, 'nmaremov&url=trending', 'fre.png', 'DefaultRecentlyAddedMovies.png')
+        #self.addDirectoryItem(32017, 'nmaremov&url=trending', 'fre.png', 'DefaultRecentlyAddedMovies.png')
         self.addDirectoryItem(32018, 'nmaremov&url=popular', 'fre.png', 'DefaultMovies.png')
         self.addDirectoryItem(32019, 'nmaremov&url=views', 'fre.png', 'DefaultMovies.png')
         self.addDirectoryItem(32020, 'nmaremov&url=boxoffice', 'fre.png', 'DefaultMovies.png')
