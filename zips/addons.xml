@@ -272,6 +272,26 @@
 
 </addon>
 
+<addon id="plugin.video.IVUEcreator"
+version="0.3.7"
+name="IVUEcreator"
+provider-name="Team IVUE">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">IVUECreator</summary>
+  <description lang="en">Integrate any plugin installed to IVUE guide easily and quickly</description>
+  <description lang="en">Now includes a fully functioning back up and restore feature</description>
+  <disclaimer lang="en">Modified by TeamJDM from the original code from "Primeaval" </disclaimer>
+</extension>
+</addon>
+
 <addon id="plugin.video.maddebrid"
        name="Mad Debrid"
        version="1.0.0"
@@ -326,6 +346,26 @@
 		<news>
 		</news>
 	</extension>
+</addon>
+
+<addon id="plugin.video.smokinbarrel"
+       name="[COLOR silver]Smoking[/COLOR][COLOR grey]barrel[/COLOR]"
+       version="1.1"
+       provider-name="[COLOR yellow]Billy The Kid[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">[COLOR silver]Smoking[/COLOR][COLOR grey]barrel[/COLOR]</summary>
+    <language>en</language>
+    <description lang="en">Call Us Outlaws. We consider ourselves Outlaws. </description>
+     <platform>all</platform>
+  </extension>
 </addon>
 
 <addon
@@ -465,7 +505,7 @@ Add-on by doko.
     </extension>
 </addon>
 
-<addon id="repository.Madhouse" name="Madhouse" version="1.0.50" provider-name="stitches">
+<addon id="repository.Madhouse" name="Madhouse" version="1.0.51" provider-name="stitches">
 	<extension point="xbmc.addon.repository" name="Madhouse REPO">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/stitches5150/madhouseaddons/master/zips/addons.xml</info>
