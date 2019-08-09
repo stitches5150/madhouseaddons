@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.bonecrusher" version="1.0.10" name="BoneCrusher" provider-name="BoneCrusher">
+<addon id="plugin.video.bonecrusher" version="1.0.11" name="BoneCrusher" provider-name="BoneCrusher">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.bonecrusher" />

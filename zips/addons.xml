@@ -76,7 +76,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.AnArchy" version="7.7.7" name="[COLOR white]A[/COLOR][COLOR red]n[/COLOR][COLOR white]A[/COLOR][COLOR red]r[/COLOR][COLOR white]C[/COLOR][COLOR red]h[/COLOR][COLOR white]Y[/COLOR]" provider-name="E-G Boogeyman">
+<addon id="plugin.video.AnArchy" version="7.7.8" name="[COLOR white]A[/COLOR][COLOR red]n[/COLOR][COLOR white]A[/COLOR][COLOR red]r[/COLOR][COLOR white]C[/COLOR][COLOR red]h[/COLOR][COLOR white]Y[/COLOR]" provider-name="E-G Boogeyman">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.anarchy.artwork"/>
@@ -135,7 +135,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.bonecrusher" version="1.0.10" name="BoneCrusher" provider-name="BoneCrusher">
+<addon id="plugin.video.bonecrusher" version="1.0.11" name="BoneCrusher" provider-name="BoneCrusher">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.bonecrusher" />
@@ -295,7 +295,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.odin" version="1.0.5" name="odin" provider-name="B.C S.S">
+<addon id="plugin.video.odin" version="1.0.6" name="odin" provider-name="B.C S.S">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.odin" />
@@ -357,7 +357,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.s_i_r" version="1.0.3" name="Still i Rise" provider-name="BoneCrusher">
+<addon id="plugin.video.s_i_r" version="1.0.5" name="Still i Rise" provider-name="BoneCrusher">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.s_i_r" />
@@ -465,7 +465,7 @@ Add-on by doko.
     </extension>
 </addon>
 
-<addon id="repository.Madhouse" name="Madhouse" version="1.0.47" provider-name="stitches">
+<addon id="repository.Madhouse" name="Madhouse" version="1.0.50" provider-name="stitches">
 	<extension point="xbmc.addon.repository" name="Madhouse REPO">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/stitches5150/madhouseaddons/master/zips/addons.xml</info>
@@ -798,7 +798,7 @@ Add-on by doko.
   </extension>
 </addon>
 
-<addon id="script.module.bonecrusher" name="bonecrusher Module" version="1.00.12" provider-name="bonecrusher">
+<addon id="script.module.bonecrusher" name="bonecrusher Module" version="1.00.20" provider-name="bonecrusher">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -977,7 +977,7 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
   </extension>
 </addon>
 
-<addon id="script.module.s_i_r" name="Still i Rise Module" version="1.0.4" provider-name="BoneCrusher">
+<addon id="script.module.s_i_r" name="Still i Rise Module" version="1.0.5" provider-name="BoneCrusher">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>

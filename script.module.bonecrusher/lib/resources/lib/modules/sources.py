@@ -1450,9 +1450,9 @@ class sources:
         return title
 
     def getConstants(self):
-        self.itemProperty = 'plugin.video.openscrapers.container.items'
+        self.itemProperty = 'plugin.video.bonecrusher.container.items'
 
-        self.metaProperty = 'plugin.video.openscrapers.container.meta'
+        self.metaProperty = 'plugin.video.bonecrusher.container.meta'
 
 #from resources.lib.sources import sources
         from openscrapers import sources
