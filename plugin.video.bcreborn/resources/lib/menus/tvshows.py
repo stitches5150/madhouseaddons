@@ -104,6 +104,10 @@ class TVshows:
         self.imdblist2_link = 'http://www.imdb.com/list/%s/?view=detail&sort=date_added,desc&title_type=tvSeries,tvMiniSeries&start=1'
         self.imdbwatchlist_link = 'http://www.imdb.com/user/ur%s/watchlist?sort=alpha,asc' % self.imdb_user
         self.imdbwatchlist2_link = 'http://www.imdb.com/user/ur%s/watchlist?sort=date_added,desc' % self.imdb_user
+        self.dptv_link = 'https://www.imdb.com/list/ls090553653/'
+        self.omctv_link = 'https://www.imdb.com/list/ls090553383/'
+        self.firetv_link = 'https://www.imdb.com/list/ls090553660/'
+        self.usertv_link = 'https://www.imdb.com/list/ls090553662/'
 
         self.trakt_user = control.setting('trakt.user').strip()
         self.trakt_link = 'http://api.trakt.tv'

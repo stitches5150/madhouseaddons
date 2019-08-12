@@ -105,6 +105,11 @@ class Navigator:
 
 
     def movies(self, lite=False):
+        self.addDirectoryItem('omc requests movies', 'movies&url=omcmov','icon.png', 'DefaultMovies.png')
+        self.addDirectoryItem('dark place movies requests', 'movies&url=dpmov','icon.png', 'DefaultMovies.png')
+        self.addDirectoryItem('user requests movies', 'movies&url=usermov','icon.png', 'DefaultMovies.png')
+        self.addDirectoryItem('firestick movies requests', 'movies&url=firemov', 'icon.png', 'DefaultMovies.png')
+
         if self.getMenuEnabled('navi.movie.imdb.intheater') is True:
             self.addDirectoryItem(32420 if control.setting('index.labels') == 'false' else 32421, 'movies&url=theaters', 'in-theaters.png' if control.setting('icon.logos') == 'Traditional' else 'imdb.png', 'DefaultMovies.png')
 
@@ -185,6 +190,10 @@ class Navigator:
 
 
     def tvshows(self, lite=False):
+        self.addDirectoryItem('omc requests tvshows', 'tvshows&url=omctv','icon.png', 'DefaultMovies.png')
+        self.addDirectoryItem('dark place tvshows requests', 'tvshows&url=dptv','icon.png', 'DefaultMovies.png')
+        self.addDirectoryItem('user requests tvshows', 'tvshows&url=usertv','icon.png', 'DefaultMovies.png')
+        self.addDirectoryItem('firestick tvshows requests', 'tvshows&url=firetv', 'icon.png', 'DefaultMovies.png')
         if self.getMenuEnabled('navi.tv.imdb.popular') is True:
             self.addDirectoryItem(32428 if control.setting('index.labels') == 'false' else 32429, 'tvshows&url=popular', 'most-popular.png' if control.setting('icon.logos') == 'Traditional' else 'imdb.png', 'DefaultTVShows.png')
         if self.getMenuEnabled('navi.tv.tmdb.popular') is True:

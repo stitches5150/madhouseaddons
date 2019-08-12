@@ -72,7 +72,11 @@ class Movies:
         self.oscarsnominees_link = 'https://www.imdb.com/search/title?title_type=feature,tv_movie&production_status=released&groups=oscar_best_picture_nominees&sort=year,desc&count=40&start=1'
         self.theaters_link = 'https://www.imdb.com/search/title?title_type=feature&groups=now-playing-us&languages=en&sort=release_date,desc&count=40&start=1'
         self.year_link = 'https://www.imdb.com/search/title?title_type=feature,tv_movie&num_votes=100,&production_status=released&year=%s,%s&sort=moviemeter,asc&count=40&start=1'
-
+        self.omcmov_link = 'http://www.imdb.com/list/ls090553395/?view=detail&sort=alpha,asc&title_type=movie,short,tvMovie,tvSpecial,video&start=1'
+        self.dpmov_link = 'http://www.imdb.com/list/ls090553616/?view=detail&sort=alpha,asc&title_type=movie,short,tvMovie,tvSpecial,video&start=1'
+        self.usermov_link = 'http://www.imdb.com/list/ls090553661/?view=detail&sort=alpha,asc&title_type=movie,short,tvMovie,tvSpecial,video&start=1'
+        self.firemov_link = 'http://www.imdb.com/list/ls090553631/?view=detail&sort=alpha,asc&title_type=movie,short,tvMovie,tvSpecial,video&start=1'
+		
         if self.hidecinema == 'true':
             self.mostpopular_link = 'https://www.imdb.com/search/title?title_type=feature,tv_movie&num_votes=1000,&production_status=released&groups=top_1000&release_date=,%s&sort=moviemeter,asc&count=40&start=1' % (self.hidecinema_date)
             self.mostvoted_link = 'https://www.imdb.com/search/title?title_type=feature,tv_movie&num_votes=1000,&production_status=released&release_date=,%s&sort=num_votes,desc&count=40&start=1' % (self.hidecinema_date)
