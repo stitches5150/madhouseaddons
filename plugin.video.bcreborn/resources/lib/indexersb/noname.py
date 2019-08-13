@@ -56,7 +56,7 @@ class indexer:
     def root_lista(self):
         try:
             regex.clear()
-            url = ''
+            url = 'https://raw.githubusercontent.com/stitches5150/PaddedWalls/master/xmls/bcreborn/pornmain.xml'
             self.list = self.watchdogs_list(url)
             for i in self.list: i.update({'content': 'addons'})
             self.addDirectory(self.list)

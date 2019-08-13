@@ -1075,7 +1075,7 @@ msgid "lists"
 msgstr ""
 
 msgctxt "#32486"
-msgid "Toons one click from toon mania"
+msgid "RD XXX I Hope"
 msgstr ""
 
 msgctxt "#32487"

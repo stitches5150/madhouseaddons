@@ -73,7 +73,7 @@ class Navigator:
 
     def listnav(self):
         self.addDirectoryItem(32659, 'lists', 'list.png', 'DefaultTVShows.png')
-        #self.addDirectoryItem(32486, 'lista', 'list.png', 'DefaultTVShows.png')
+        self.addDirectoryItem(32486, 'lista', 'icon.png', 'DefaultTVShows.png')
         #self.addDirectoryItem(32487, 'listb', 'list.png', 'DefaultTVShows.png')
         #self.addDirectoryItem(32488, 'listc', 'list.png', 'DefaultTVShows.png')
         #self.addDirectoryItem(32489, 'listd', 'list.png', 'DefaultTVShows.png')
