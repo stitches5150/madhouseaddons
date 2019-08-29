@@ -505,7 +505,7 @@ Add-on by doko.
     </extension>
 </addon>
 
-<addon id="repository.Madhouse" name="Madhouse" version="1.0.53" provider-name="stitches">
+<addon id="repository.Madhouse" name="Madhouse" version="1.0.55" provider-name="stitches">
 	<extension point="xbmc.addon.repository" name="Madhouse REPO">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/stitches5150/madhouseaddons/master/zips/addons.xml</info>
@@ -543,7 +543,7 @@ Add-on by doko.
 		<description lang="en">Madhouse Repo</description>
 		<genre></genre>
     <assets>
-        <icon>icon.gif</icon>
+        <icon>icon.jpg</icon>
         <fanart>fanart.jpg</fanart>
         <banner></banner>
         <clearlogo></clearlogo>
@@ -1186,6 +1186,46 @@ Documentation: https://github.com/tamland/kodi-plugin-routing</description>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
 		</assets>
+	</extension>
+</addon>
+
+<addon id="skin.madhouse.nox" version="5.1.50" name="Madhouse Nox" provider-name="Bone Crusher">
+	<requires>
+		<import addon="xbmc.gui" version="5.14.0" />
+		<import addon="script.skinshortcuts" version="1.0.10" />
+		<import addon="service.library.data.provider" version="0.0.7" />
+		<import addon="script.grab.fanart" version="0.12.8" />
+		<import addon="resource.images.studios.white" version="0.0.1" />
+		<import addon="resource.images.recordlabels.white" version="0.0.1" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<summary lang="en_US">Created by BigNoid, Modded by SiLVO, and Widgets by Mr. V</summary>
+		<platform>all</platform>
+		<license>CC BY-NC-SA 4.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=210069</forum>
+		<website>https://github.com/mikesilvo164/Aeon-Nox-SiLVO</website>
+		<source>https://github.com/mikesilvo164/Aeon-Nox-SiLVO</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+		</assets>
+		<news>[I][COLOR FFFF9800]v7.0.4[/COLOR][/I][CR]- Revert removal of bottom OSD button position[CR]- Fix default letter jump appearing on side menu settings button focus[CR]- Add "fixed" option for video RightList[CR]- Tweak Vertical Menu fixed behaviour to match Horizontal[CR]- Rework Live TV guide with icons from Estuary and re-add channel logos[CR]- Add disable to submenu items in Main Menu Customizer[CR]- Add information setting to SlimList[CR]- Remove script.extendedinfo and add script.embuary.info support[CR][I][COLOR FFFF9800]v7.0.3[/COLOR][/I]Use script.embuary.helper for Similiar and Directer movies in DialogVideoInfo[CR]- Add missing PVR label to Widget info[CR]- Add Glow Bars and System Glow Bars to color customizer[CR]- Add Jump to Letter bar to Video library using script.embuary.helper[CR]- Fix playlist backgrounds for Main Menu not following user set rotation speed[CR]- Redesign DialogExtendedProgressBar and DialogVolumeBar[CR]- Make OSD buttons on top default and remove option[CR]- Redesign PlayerProcessInfo[CR]- Clean up Main Menu and Widget Customizers[CR]- Fill empty space with more info in some views[CR][CR][B]All updates may contain various changes and/or improvements[/B][CR]For a more complete list visit:[CR][I][COLOR FFFF9800]https://github.com/mikesilvo164/Aeon-Nox-SiLVO/commits/master[/COLOR][/I]</news>
 	</extension>
 </addon>
 

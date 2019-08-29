@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Madhouse" name="Madhouse" version="1.0.53" provider-name="stitches">
+<addon id="repository.Madhouse" name="Madhouse" version="1.0.55" provider-name="stitches">
 	<extension point="xbmc.addon.repository" name="Madhouse REPO">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/stitches5150/madhouseaddons/master/zips/addons.xml</info>
@@ -37,7 +37,7 @@
 		<description lang="en">Madhouse Repo</description>
 		<genre></genre>
     <assets>
-        <icon>icon.gif</icon>
+        <icon>icon.jpg</icon>
         <fanart>fanart.jpg</fanart>
         <banner></banner>
         <clearlogo></clearlogo>
