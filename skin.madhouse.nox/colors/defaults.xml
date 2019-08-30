@@ -1,0 +1,13 @@
+<colors>
+	<color name="white">ff9CFF00</color>
+	<color name="white2">ffEA0000</color>
+	<color name="grey">ffEA0000</color>
+	<color name="grey2">ff9CFF00</color>
+	<color name="grey3">ffEA0000</color>
+	<color name="grey4">ffEA0000</color>
+	<color name="black">ffEA0000</color>
+	<color name="blue">ff9CFF00</color>
+	<color name="invalid">ffEA0000</color>
+	<color name="dialogheader">ffEA0000</color>
+	<color name="shadow">ffEA0000</color>
+</colors>
