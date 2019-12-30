@@ -2,11 +2,6 @@
 <addon id="plugin.video.genesisresurrected" version="7.7.8" name="genesisresurrected" provider-name="NecroMancer">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.genesis.artwork" version="1.0.0" />
-		<import addon="script.genesisresurrected.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-        <import addon="script.module.openscrapers" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="genesisresurrected.py">
 		<provides>video</provides>

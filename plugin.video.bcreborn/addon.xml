@@ -2,11 +2,6 @@
 <addon id="plugin.video.bcreborn" version="1.0.9" name="Bone Crusher Reborn" provider-name="Bone Crusher">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.bcreborn.metadata" />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.openscrapers" />
-		<import addon="script.module.metahandler" version="1.0.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>

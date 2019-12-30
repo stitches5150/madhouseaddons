@@ -1,3 +1,0 @@
-Bone Crusher Reborn Changelog:\
-1.0.46 - fixed Traxt tv shows error And context menu items
-1.0.0 - Initial commit

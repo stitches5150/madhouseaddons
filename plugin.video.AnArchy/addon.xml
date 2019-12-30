@@ -2,11 +2,6 @@
 <addon id="plugin.video.AnArchy" version="7.7.8" name="[COLOR white]A[/COLOR][COLOR red]n[/COLOR][COLOR white]A[/COLOR][COLOR red]r[/COLOR][COLOR white]C[/COLOR][COLOR red]h[/COLOR][COLOR white]Y[/COLOR]" provider-name="E-G Boogeyman">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.anarchy.artwork"/>
-		<import addon="script.anarchy.metadata"/>
-		<import addon="script.module.resolveurl" version="3.0.0" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="script.module.openscrapers"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="AnArchy.py">
 		<provides>video</provides>

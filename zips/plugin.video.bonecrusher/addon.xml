@@ -2,13 +2,6 @@
 <addon id="plugin.video.bonecrusher" version="1.0.11" name="BoneCrusher" provider-name="BoneCrusher">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.bonecrusher" />
-		<import addon="script.bonecrusher.artwork" version="1.0.0" />
-		<import addon="script.bonecrusher.metadata" version="1.0.0" />
-		<import addon="script.module.resolveurl" version="3.0.0" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="script.module.openscrapers"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="bonecrusher.py">
 		<provides>video</provides>

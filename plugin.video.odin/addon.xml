@@ -2,13 +2,6 @@
 <addon id="plugin.video.odin" version="1.0.6" name="odin" provider-name="B.C S.S">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.odin" />
-		<import addon="script.odin.artwork" />
-		<import addon="script.odin.metadata" />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="script.module.openscrapers"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="odin.py">
 		<provides>video</provides>

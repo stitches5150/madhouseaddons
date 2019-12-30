@@ -2,13 +2,6 @@
 <addon id="plugin.video.s_i_r" version="1.0.5" name="Still i Rise" provider-name="BoneCrusher">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.s_i_r" />
-		<import addon="script.s_i_r.artwork" />
-		<import addon="script.module.openscrapers"/>
-		<import addon="script.s_i_r.metadata" />
-		<import addon="script.module.resolveurl" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="s_i_r.py">
 		<provides>video</provides>

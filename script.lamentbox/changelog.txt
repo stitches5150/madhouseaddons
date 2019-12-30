@@ -1,6 +1,0 @@
-# lamentbox for use with hellraiser...............
-# FIXED FOR USE WITH KODI 18
-# Forked from Metalgear solid By Lockdown Machine THank you for Allowing me to Fork it for my upcoming build.
-# If you Fork This Or Bone Player Please Have the respect to credit the person who Done the fix
-# Need To Fix Play From Hellraiser On The Skins Themselves
-# Enjoy The Info Mod 
