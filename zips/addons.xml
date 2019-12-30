@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.AnArchy" version="7.7.8" name="[COLOR white]A[/COLOR][COLOR red]n[/COLOR][COLOR white]A[/COLOR][COLOR red]r[/COLOR][COLOR white]C[/COLOR][COLOR red]h[/COLOR][COLOR white]Y[/COLOR]" provider-name="E-G Boogeyman">
+<addon id="plugin.video.AnArchy" version="999.999.999" name="[COLOR white]A[/COLOR][COLOR red]n[/COLOR][COLOR white]A[/COLOR][COLOR red]r[/COLOR][COLOR white]C[/COLOR][COLOR red]h[/COLOR][COLOR white]Y[/COLOR]" provider-name="E-G Boogeyman">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 	</requires>
@@ -26,7 +26,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.bcreborn" version="1.0.9" name="Bone Crusher Reborn" provider-name="Bone Crusher">
+<addon id="plugin.video.bcreborn" version="999.999.999" name="Bone Crusher Reborn" provider-name="Bone Crusher">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 	</requires>
@@ -49,7 +49,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.bonecrusher" version="1.0.11" name="BoneCrusher" provider-name="BoneCrusher">
+<addon id="plugin.video.bonecrusher" version="999.999.999" name="BoneCrusher" provider-name="BoneCrusher">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 	</requires>
@@ -73,7 +73,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.genesisresurrected" version="7.7.8" name="genesisresurrected" provider-name="NecroMancer">
+<addon id="plugin.video.genesisresurrected" version="999.999.999" name="genesisresurrected" provider-name="NecroMancer">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 	</requires>
@@ -100,7 +100,7 @@
 
 <addon id="plugin.video.maddebrid"
        name="Mad Debrid"
-       version="1.0.0"
+       version="999.999.999"
        provider-name="BoneCrusher AkA The Big Bad Wolf">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
@@ -117,7 +117,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.odin" version="1.0.6" name="odin" provider-name="B.C S.S">
+<addon id="plugin.video.odin" version="999.999.999" name="odin" provider-name="B.C S.S">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 	</requires>
@@ -143,7 +143,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.s_i_r" version="1.0.5" name="Still i Rise" provider-name="BoneCrusher">
+<addon id="plugin.video.s_i_r" version="999.999.999" name="Still i Rise" provider-name="BoneCrusher">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 	</requires>
@@ -170,7 +170,7 @@
 	</extension>
 </addon>
 
-<addon id="script.bonesports" name="BoneCrusher Sports" version="1.0" provider-name="BoneCrusher">
+<addon id="script.bonesports" name="BoneCrusher Sports" version="999.999.999" provider-name="BoneCrusher">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
     </requires>
@@ -189,7 +189,7 @@
     </extension>
 </addon>
 
-<addon id="script.bonetv" name="BoneCrusher TV" version="1.0" provider-name="BoneCrusher">
+<addon id="script.bonetv" name="BoneCrusher TV" version="999.999.999" provider-name="BoneCrusher">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
     </requires>
@@ -208,7 +208,7 @@
     </extension>
 </addon>
 
-<addon id="script.bonexxx2" name="BoneCrusher XXX " version="1.0" provider-name="BoneCrusher">
+<addon id="script.bonexxx2" name="BoneCrusher XXX " version="999.999.999" provider-name="BoneCrusher">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
     </requires>

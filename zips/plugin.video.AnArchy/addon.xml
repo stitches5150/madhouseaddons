@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.AnArchy" version="7.7.8" name="[COLOR white]A[/COLOR][COLOR red]n[/COLOR][COLOR white]A[/COLOR][COLOR red]r[/COLOR][COLOR white]C[/COLOR][COLOR red]h[/COLOR][COLOR white]Y[/COLOR]" provider-name="E-G Boogeyman">
+<addon id="plugin.video.AnArchy" version="999.999.999" name="[COLOR white]A[/COLOR][COLOR red]n[/COLOR][COLOR white]A[/COLOR][COLOR red]r[/COLOR][COLOR white]C[/COLOR][COLOR red]h[/COLOR][COLOR white]Y[/COLOR]" provider-name="E-G Boogeyman">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 	</requires>

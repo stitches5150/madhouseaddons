@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.genesisresurrected" version="7.7.8" name="genesisresurrected" provider-name="NecroMancer">
+<addon id="plugin.video.genesisresurrected" version="999.999.999" name="genesisresurrected" provider-name="NecroMancer">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 	</requires>
